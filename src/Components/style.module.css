@@ -1,0 +1,31 @@
+.Logo {
+  text-decoration: none;
+  color: #f16c32;
+  font-size: 20px;
+}
+.ListItem {
+  color: white;
+  font-size: 13px;
+  padding-top: 0.3rem;
+  cursor: pointer;
+}
+.Bans {
+  width: 70%;
+  height: 80vh;
+  
+  margin: auto;
+  display: flex;
+  color: white;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.BansLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.BansRight {
+  background-image: linear-gradient(#414141, #303030);
+  height: 60vh;
+  width: 50%;
+}

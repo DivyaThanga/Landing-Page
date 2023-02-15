@@ -1,0 +1,42 @@
+.TopHeader {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.Banspara {
+  color: white;
+  font-size: 20px;
+}
+.Banshead1,
+.Banshead2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 1px;
+}
+.Banssubpara {
+  font-size: 13px;
+  padding: 2px;
+  line-height: 20px;
+}
+.Boxes {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+.SubBox {
+  background-image: linear-gradient(to right, #d62334, #db6f39);
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+}
+.SubBox h1 {
+  font-family: 'Pacifico', cursive;
+}
